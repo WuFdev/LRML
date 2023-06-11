@@ -1,4 +1,5 @@
 #include <linux/module.h>
+#include "lrml.h"
 static int __init runtime(void)
 {
   if (main())
